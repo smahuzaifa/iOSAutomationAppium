@@ -1,0 +1,23 @@
+Starting iOS Automation
+
+1. Create a maven project with group id = rsa and update pom file (google appium java client)
+2. Create desired capabilities class in src/test/java
+    1. to get list of devices installed on mac do following:
+        1. Open terminal -> brew install carthage
+        2.  Enter -> xcrun xctrace list devices (this will give information about all simulators installed)
+        3.  Add this under dependencies
+<dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-api</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-log4j12</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+
+or copy the pom file from GitHub as it also has testng and selenium dependencies 
+
+3. If Product folder is not visible in Xcode then: it seems like in Xcode 13, the Products folder is hidden. You must go to the Products menu at the top for Mac and then select show build founder in finder. I can see the longtap.app file now.
+4. 
