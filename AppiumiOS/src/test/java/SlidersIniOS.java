@@ -25,7 +25,7 @@ public class SlidersIniOS extends DesiredCapabilitiesiOS {
 		//Thread.sleep(2000);
 		System.out.println(slider.getAttribute("value"));
 		/*
-		 * Setvalue method accepts value between 0 to 1
+		 * Set value method accepts value between 0 to 1
 		 * to set value of 42 we need 0.42
 		 * Similarly to set 100 we need 1
 		 */
