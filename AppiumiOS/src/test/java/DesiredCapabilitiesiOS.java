@@ -13,8 +13,8 @@ public class DesiredCapabilitiesiOS {
 	{
 		DesiredCapabilities c = new DesiredCapabilities();
 		c.setCapability(MobileCapabilityType.PLATFORM_VERSION, "15.2");
-		c.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 13 Pro Max");
-		c.setCapability(MobileCapabilityType.UDID, "001F35C3-4C23-4470-8789-B714152CE1F4");
+		c.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 13");
+		c.setCapability(MobileCapabilityType.UDID, "F9AF42B4-522F-49B4-BED5-07A930DBC9CC");
 		c.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
 		c.setCapability(IOSMobileCapabilityType.WDA_LAUNCH_TIMEOUT, 500000 );
 		c.setCapability("commandTimeouts", "12000");

@@ -2,7 +2,7 @@ import java.net.MalformedURLException;
 
 import io.appium.java_client.ios.IOSDriver;
 
-public class AppiumClickTest extends DesiredCapabilitiesiOS {
+public class BasiciOSTest extends DesiredCapabilitiesiOS {
 
 	public static void main(String[] args) throws MalformedURLException {
 		IOSDriver driver = DesiredCapabilities();
